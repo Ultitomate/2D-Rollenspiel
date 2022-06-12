@@ -30,7 +30,6 @@ public class main {
         window.setVisible(true);
 
         gamePanel.startGameThread();
-
         
     }
 }
