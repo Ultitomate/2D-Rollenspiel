@@ -1,2 +1,5 @@
+entity\Player.class
 src\GamePanel.class
+src\KeyHandler.class
 src\main.class
+entity\Entity.class

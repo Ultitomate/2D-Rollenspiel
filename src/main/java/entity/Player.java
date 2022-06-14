@@ -24,13 +24,13 @@ public class Player extends Entity{
     public void setDefaultValues() {
         x = 100;
         y = 100;
-        speed = 4;
+        speed = 2;
         direction = "down";
     }
     public void getPlayerImage() {
         try {
             up1 = ImageIO.read(getClass().getResourceAsStream("/player/boy_up_1.png"));
-            up2 = ImageIO.read(getClass().getResourceAsStream("/player/boy_up_2.png"));
+          up2 = ImageIO.read(getClass().getResourceAsStream("/player/boy_up_2.png"));
             down1 = ImageIO.read(getClass().getResourceAsStream("/player/boy_down_1.png"));
             down2 = ImageIO.read(getClass().getResourceAsStream("/player/boy_down_2.png"));
             left1 = ImageIO.read(getClass().getResourceAsStream("/player/boy_left_1.png"));
